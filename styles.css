@@ -1,0 +1,36 @@
+body {
+    /* min-width: 250px; */
+    width: 550px;
+    height: 1000px;
+    /* width: ; */
+}
+
+.add-cart-btn {
+    padding: 8px;
+    border-radius: 24px;
+    border-color: #d47500;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.remove-cart-btn {
+    padding: 8px;
+    border-radius: 24px;
+    border-color: #e80767;
+    background-color: #e80767;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#confirm-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 16px;
+    background-color: #d47500;
+}
